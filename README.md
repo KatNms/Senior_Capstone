@@ -14,6 +14,3 @@ This script handles requests by the application to turn our lightbulb on/off. It
 
 ## *./senior_design/info.php*
 This script handles login requests by the application and updates the last authenticated time of a user. 
-
-## *./senior_design/srsLTE/lib/examples/pdsch_ue.c*
-This is the main application interacting with the USRP that captures paging messages and forwards them to named pipe to be read by the *asn2.py* script. To speed up our system, the RRC decoding library should be implemented in this script instead of a separate Python script. This would give the system the ability to immediately discard irrelevant packets.
